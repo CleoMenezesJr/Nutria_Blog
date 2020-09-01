@@ -1,0 +1,87 @@
+body{
+	margin:0;
+	background-color: black;
+	height: 100vh;
+	width: 100vw;
+	
+}
+header {
+	font-size: 20px;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,0.8319445698201156) 100%);
+	color: #cccccc;
+	height: 75px;
+
+}
+#topbar{
+	width:60vw;
+	margin-left: auto ;
+	margin-right: auto ;
+	
+	font-family: 'Gayathri', sans-serif;
+}
+nav {
+	float: right;
+
+}
+nav li {
+	display: inline;
+	padding-right: 30px;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.logo {
+	float:left;
+	font-size:30px;
+	padding-left:20px;
+	padding-top:20px;
+}
+
+.box{
+	margin-top: 1rem;
+    padding: 2rem;
+	width: 50vw;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-bottom: 1rem;
+    height: 65vh;
+	border-radius: 0.8rem;
+	display: flex;
+	justify-content: center;
+
+	background: white;   
+}
+
+.blog-body p {
+	font-style: italic;
+}
+
+.blog-post{
+	margin-top:20px;
+}
+.blog-heading{
+	font-size: 36px;
+	margin-bottom:2rem;
+
+}
+
+footer{	
+	color: white;	
+	margin-left: auto ;    
+	margin-right: auto ;	
+	font-size:16px;	
+	min-height: 50px;	
+	padding:20px;	
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,0.8319445698201156) 100%);
+}
+#footer{	
+	width:60%;
+	margin: auto ;
+	position: relative;
+}
