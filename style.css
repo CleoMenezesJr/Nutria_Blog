@@ -46,7 +46,7 @@ nav li a{
 
 .box{
 	margin-top: 1rem;
-    padding: 4rem;
+    padding: 2.5rem;
 	width: 50vw;
 	margin-left: auto ;
 	margin-right: auto ;
@@ -91,6 +91,25 @@ footer{
 @media screen and (max-width: 850px) {
 	.box {
 		width: 60vw;
-		height: 170vh
+		height: 100vh
+	}
+	header #topbar{
+		display: flex;
+		flex-direction: column;
+		justify-items: center;
+		align-items: center;
+
+	}
+
+	header #logo {
+		
+	}
+
+	header nav ul{
+		display: flex;
+	}
+
+	header nav ul{
+		margin-top: -0.2rem;
 	}
 }
