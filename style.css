@@ -65,6 +65,7 @@ nav li a{
 
 .blog-post{
 	margin-top:20px;
+
 }
 .blog-heading{
 	font-size: 36px;
@@ -88,10 +89,12 @@ footer{
 	position: relative;
 }
 
+
+
 @media screen and (max-width: 850px) {
 	.box {
 		width: 60vw;
-		height: 170vh
+		height: 200vh
 	}
 	header #topbar{
 		display: flex;
@@ -116,7 +119,7 @@ footer{
 	.box img {
 	 height: auto;
 	 width: auto;
-	 max-width: 200px;
-	 max-height: 200px;
+	 max-width: 250px;
+	 max-height: 250px;
 	}
 }
